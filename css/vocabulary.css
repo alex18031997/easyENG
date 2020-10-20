@@ -1,0 +1,453 @@
+body {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e7f4fc;
+
+}
+header {
+
+    min-width: 100%;
+}
+
+
+.vocabulary_wrap {
+    background-color: white;
+    margin: 5px;
+    min-width: 414px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 9px;
+}
+.vocabularyInEng {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.vocabularyInRus {
+    color: black;
+}
+.wraper {
+    padding: 15px;
+    background-color: #e7f4fc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.modal {
+    display: none;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0,0.983);
+}
+
+.modal-content {
+    background: #7b7b7b;
+    margin: 15% auto;
+    flex-wrap: wrap;
+    border: 1px solid #888;
+    width: 22%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: revert;
+    border-radius: 5px;
+    max-height: 132px;
+    user-select: none;
+}
+
+.modal-content i {
+    padding: 0px;
+    cursor: pointer;
+}
+
+
+
+.checkBtn {
+    background: midnightblue;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.container_nav {
+    background: #161f29;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.logo-wrap {
+    color: #72808a;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+.vocabularyBtn {
+    background: #2196f3;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.section_1_container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+.text-wrap {
+    text-align: center;
+    width: 100%;
+}
+.text-wrap h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+
+}
+
+.checkBtn {
+    background: midnightblue;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+.theTask {
+    flex-basis: 100%;
+}
+
+.theTask input {
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.theWord {
+    flex-basis: 100%;
+    margin-bottom: 5px;
+}
+.limit-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lineProgress {
+    display: flex;
+    margin: 5px auto;
+    background: #7b7b7b;
+    width: 95%;
+    height: 10px;
+    border-radius: 5px;
+}
+.progressPart1 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    border-radius: 5px 0px 0px 5px;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+.progressPart2 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+.progressPart3 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+.progressPart4 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+.progressPart5 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+.progressPart6 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+.progressPart7 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+.progressPart8 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+.progressPart9 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+
+.progressPart10 {
+    display: none;
+    background: greenyellow;
+    width: 10%;
+    height: 10px;
+    border-right: 1px solid #7b7b7b;
+    border-radius: 0px 5px 5px 0px;
+    animation-name: lineAnimation;
+    animation-duration: 1s;
+}
+
+
+@keyframes lineAnimation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 10%;
+    }
+}
+
+.sta_eng {
+    color: white;
+    max-width: 300px;
+    text-shadow: #222021;
+}
+.sta_eng_wrap {
+
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #72808a;
+}
+.modal_container {
+
+}
+
+.actionsWord {
+    display: flex;
+    background-color: #72808a;
+}
+.actionsWord_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.actions_cont {
+    display: flex;
+}
+
+.actions_cont i {
+    padding: 0px 0px 0px 5px;
+}
+
+.actions_cont i:hover {
+    cursor: pointer;
+}
+
+
+.checkWordsBtn {
+    background-color: #2196f3;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.checkWordsBtn:hover {
+    background-color: #1094e2;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.5s all;
+}
+
+.checkWordsBtn:active {
+    background-color: #57b9ff;
+    transition: 0.5s all;
+}
+
+.checkWordsBtn_wrap {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    background-color: #e7f4fc;
+    align-items: center;
+}
+.sec1_con {
+    display: flex;
+    background-color: #e7f4fc;
+}
+.mustBeTenWords {
+    background-color: #e7f4fc;
+    padding: 5px;
+}
+
+.mustBeTenWords h5 {
+    color: #959899;
+    margin-block-end: 5px;
+    margin-block-start: 15px;
+}
+
+.mustBeTenWords p3 {
+    color: #959899;
+    font-size: 13px;
+}
+.noWord {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7f4fc;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    color: #959899;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.button:disabled {
+    background-color: #2196f3;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.container {
+    background-color: #e7f4fc;
+    flex-basis: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.test_word_eng {
+    padding: 5px;
+}
+
+.noWord_txt {
+    max-width: 225px;
+}
+
+.footer_wrap {
+    margin-top: 200px;
+    background-color: #161f29;
+    display: flex;
+    color: white;
+    padding: 130px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 50;
+}
+.closeWin {
+    display: flex;
+}
+
+.test_word_end {
+    justify-content: center;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+.checkBtn_wrap {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+.test_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 10px 0px;
+}
+.noWord_wrap {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    flex-basis: 100%;
+}
+
+.noWord_txt {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.noWord_checkBtn {
+    background: midnightblue;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.noWord_checkBtn_wrap {
+    flex-basis: 100%;
+}
